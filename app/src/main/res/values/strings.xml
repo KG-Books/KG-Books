@@ -90,4 +90,8 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="back_button">back_button</string>
+    <string name="didnt_found_book">Не нашли книгу которую искали?</string>
+    <string name="choose_school_text">Учебники по языку обучения</string>
+
 </resources>
