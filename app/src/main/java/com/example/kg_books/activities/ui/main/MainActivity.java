@@ -4,10 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.kg_books.R;
-import com.example.kg_books.activities.ChooseSchoolActivity;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;

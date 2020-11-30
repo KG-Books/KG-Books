@@ -93,5 +93,11 @@
     <string name="back_button">back_button</string>
     <string name="didnt_found_book">Не нашли книгу которую искали?</string>
     <string name="choose_school_text">Учебники по языку обучения</string>
+    <string name="profile">Профиль</string>
+    <string name="about_app">О приложении</string>
+    <string name="send">Отправить</string>
+    <string name="report_text">Напишите нам сообщение содержащее: \n 1. Автора учебника \n 2. Предмет \n 3. Класс \n 4. Издательство и год (если возможно)</string>
+    <string name="message">Сообщение</string>
+    <string name="report">Сообщить о недостающей книге</string>
 
 </resources>
