@@ -2,5 +2,5 @@
 
 Team members:
     Zheksheev Doslan
-    Askhat Shailoobekov
+    Askhat Shailoobekov com-18
     Maksatek Kanybek uulu
