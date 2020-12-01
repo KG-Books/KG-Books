@@ -29,7 +29,7 @@ class ClassesAdapter(private var myDataset: ArrayList<String>, var context: Cont
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val post = myDataset[position]
-        holder.linearLayout.class_name.text = post
+        holder.linearLayout.class_name.text = postitem_class.xml
         holder.linearLayout.setOnClickListener {
             val i = Intent(context, BooksActivity::class.java)
             i.putExtra("school", school.fireBaseId)
