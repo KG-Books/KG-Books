@@ -99,5 +99,9 @@
     <string name="report_text">Напишите нам сообщение содержащее: \n 1. Автора учебника \n 2. Предмет \n 3. Класс \n 4. Издательство и год (если возможно)</string>
     <string name="message">Сообщение</string>
     <string name="report">Сообщить о недостающей книге</string>
+    <string name="book_name">book_name</string>
+    <string name="books_size">book_size</string>
+    <string name="book_view">book_view</string>
+    <string name="read">Открыть книгу  -></string>
 
 </resources>

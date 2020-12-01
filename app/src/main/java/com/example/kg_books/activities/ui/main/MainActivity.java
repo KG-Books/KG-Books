@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.kg_books.R;
+import com.example.kg_books.activities.ChooseSchoolActivity;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
