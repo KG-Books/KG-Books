@@ -13,7 +13,6 @@ import io.flaterlab.reader.activities.BooksActivity
 import io.flaterlab.reader.models.School
 import kotlinx.android.synthetic.main.item_class.view.*
 
-
 class ClassesAdapter(private var myDataset: ArrayList<String>, var context: Context, val school: School)
     : RecyclerView.Adapter<ClassesAdapter.MyViewHolder>() {
     class MyViewHolder(val linearLayout: View) : RecyclerView.ViewHolder(linearLayout)
