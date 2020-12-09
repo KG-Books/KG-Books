@@ -10,10 +10,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import io.flaterlab.reader.R
-import io.flaterlab.reader.adapters.BooksFirestoreAdapter
-import io.flaterlab.reader.data.Data
-import io.flaterlab.reader.models.BookFirestore
+import com.example.kg_books.R
+import com.example.kg_books.adapters.BooksFirestoreAdapter
+import com.example.kg_books.models.BookFirestore
+import com.example.kg_books.data.Data
 import kotlinx.android.synthetic.main.activity_books.*
 
 class BooksActivity : AppCompatActivity() {

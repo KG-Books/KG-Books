@@ -4,19 +4,17 @@ import android.app.DownloadManager
 import android.app.Service
 import android.content.Context
 import android.net.Uri
-import android.os.Environment
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
-import io.flaterlab.reader.R
-import io.flaterlab.reader.data.Const
-import io.flaterlab.reader.data.Data
-import io.flaterlab.reader.models.BookFirestore
-import io.flaterlab.reader.models.DownloadingFiles
+import com.example.kg_books.R
+import com.example.kg_books.data.Const
+import com.example.kg_books.data.Data
+import com.example.kg_books.models.BookFirestore
+import com.example.kg_books.models.DownloadingFiles
 import kotlinx.android.synthetic.main.item_book_firestore.view.*
 
 

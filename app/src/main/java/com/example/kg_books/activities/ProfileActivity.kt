@@ -4,10 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kg_books.R
-import io.flaterlab.reader.R
-import io.flaterlab.reader.activities.ui.main.AboutActivity
-import io.flaterlab.reader.data.BalanceRepository
-import io.flaterlab.reader.data.Data
+import com.example.kg_books.activities.ui.main.AboutActivity
+import com.example.kg_books.data.BalanceRepository
+import com.example.kg_books.data.Data
 import kotlinx.android.synthetic.main.activity_profile.*
 
 class ProfileActivity : AppCompatActivity() {

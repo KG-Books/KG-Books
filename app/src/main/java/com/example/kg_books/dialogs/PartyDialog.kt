@@ -1,10 +1,10 @@
-package io.flaterlab.reader.dialogs
+package com.example.kg_books.dialogs
 
 import android.app.Dialog
 import android.content.Context
 import android.os.Bundle
 import android.view.View
-import io.flaterlab.reader.R
+import com.example.kg_books.R
 
 import kotlinx.android.synthetic.main.dialog_party.*
 

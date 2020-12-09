@@ -1,17 +1,19 @@
 package com.example.kg_books.adapters
 
 import android.content.Intent
+import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
+import androidx.annotation.RequiresApi
 import androidx.core.app.ActivityOptionsCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.gms.ads.AdRequest
-import io.flaterlab.reader.R
-import io.flaterlab.reader.activities.ViewBookActivity
-import io.flaterlab.reader.models.BookLocal
+import com.example.kg_books.R
+import com.example.kg_books.activities.ViewBookActivity
+import com.example.kg_books.models.BookLocal
 import kotlinx.android.synthetic.main.activity_pdf.view.*
 import kotlinx.android.synthetic.main.item_book_firestore.view.*
 
@@ -36,6 +38,7 @@ class BooksLocalAdapter(private var myDataset: ArrayList<BookLocal>, var parent:
         return MyViewHolder(linearLayout)
     }
 
+    @RequiresApi(Build.VERSION_CODES.JELLY_BEAN)
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val book: BookLocal = myDataset[position]
         holder.linearLayout.book_name.text = book.name

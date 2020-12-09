@@ -1,11 +1,11 @@
-package io.flaterlab.reader.activities.ui.main
+package com.example.kg_books.activities.ui.main
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.flaterlab.reader.R
+import com.example.kg_books.R
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.

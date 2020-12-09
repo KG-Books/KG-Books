@@ -1,4 +1,4 @@
-package io.flaterlab.reader.activities.ui.add
+package com.example.kg_books.activities.ui.add
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

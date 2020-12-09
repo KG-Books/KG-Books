@@ -1,4 +1,4 @@
-package io.flaterlab.reader.data
+package com.example.kg_books.data
 
 class Const{
     companion object{

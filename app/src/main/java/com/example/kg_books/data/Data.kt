@@ -1,11 +1,10 @@
-package io.flaterlab.reader.data
+package com.example.kg_books.data
 
-import android.annotation.SuppressLint
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import io.flaterlab.reader.models.BookLocal
-import io.flaterlab.reader.models.DownloadingFiles
+import com.example.kg_books.models.BookLocal
+import com.example.kg_books.models.DownloadingFiles
 
 import java.lang.reflect.Type
 

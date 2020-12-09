@@ -1,4 +1,4 @@
-package io.flaterlab.reader.data
+package com.example.kg_books.data
 
 import android.annotation.SuppressLint
 import android.content.Context

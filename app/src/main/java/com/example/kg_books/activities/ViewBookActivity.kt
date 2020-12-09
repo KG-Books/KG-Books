@@ -7,10 +7,9 @@ import android.os.Bundle
 import android.view.animation.AnimationSet
 import android.view.animation.AnimationUtils
 import com.example.kg_books.R
-import io.flaterlab.reader.R
-import io.flaterlab.reader.activities.ui.pdf.PdfActivity
-import io.flaterlab.reader.data.Data
-import io.flaterlab.reader.models.BookLocal
+import com.example.kg_books.activities.ui.pdf.PdfActivity
+import com.example.kg_books.data.Data
+import com.example.kg_books.models.BookLocal
 import kotlinx.android.synthetic.main.activity_view_book.*
 
 import java.io.File

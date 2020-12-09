@@ -1,10 +1,10 @@
-package io.flaterlab.reader.activities.ui.add
+package com.example.kg_books.activities.ui.add
 
 import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import io.flaterlab.reader.models.School
+import com.example.kg_books.models.School
 
 
 private val tabs_data = arrayListOf(

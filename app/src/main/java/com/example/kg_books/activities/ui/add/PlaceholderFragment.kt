@@ -1,4 +1,4 @@
-package io.flaterlab.reader.activities.ui.add
+package com.example.kg_books.activities.ui.add
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import io.flaterlab.reader.R
-import io.flaterlab.reader.adapters.ClassesAdapter
-import io.flaterlab.reader.models.School
+import com.example.kg_books.R
+import com.example.kg_books.adapters.ClassesAdapter
+import com.example.kg_books.models.School
 
 /**
  * A placeholder fragment containing a simple view.

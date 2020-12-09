@@ -1,4 +1,4 @@
-package io.flaterlab.reader.activities.ui.main
+package com.example.kg_books.activities.ui.main
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,12 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.crashlytics.internal.common.CrashlyticsCore
-import com.google.firebase.crashlytics.internal.model.CrashlyticsReport
-import io.flaterlab.reader.R
-import io.flaterlab.reader.adapters.BooksFirestoreAdapter
-import io.flaterlab.reader.adapters.BooksLocalAdapter
-import io.flaterlab.reader.data.Data
+import com.example.kg_books.R
+import com.example.kg_books.adapters.BooksLocalAdapter
+import com.example.kg_books.data.Data
 import kotlinx.android.synthetic.main.fragment_first.view.*
 
 class FirstFragment : Fragment() {

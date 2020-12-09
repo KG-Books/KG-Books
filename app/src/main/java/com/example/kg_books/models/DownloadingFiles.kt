@@ -1,4 +1,4 @@
-package io.flaterlab.reader.models
+package com.example.kg_books.models
 
 data class DownloadingFiles(
     val id: Long,

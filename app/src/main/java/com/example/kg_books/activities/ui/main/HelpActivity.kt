@@ -1,8 +1,8 @@
-package io.flaterlab.reader.activities.ui.main
+package com.example.kg_books.activities.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import io.flaterlab.reader.R
+import com.example.kg_books.R
 import kotlinx.android.synthetic.main.activity_help.*
 
 class HelpActivity : AppCompatActivity() {

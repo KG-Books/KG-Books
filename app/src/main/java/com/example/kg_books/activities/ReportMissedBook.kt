@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.example.kg_books.models.Message
 import com.example.kg_books.R
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import io.flaterlab.reader.R
-import io.flaterlab.reader.dialogs.PartyDialog
+import com.example.kg_books.dialogs.PartyDialog
 import kotlinx.android.synthetic.main.activity_report_missed_book.*
 import java.util.*
 
@@ -27,7 +27,7 @@ class ReportMissedBook : AppCompatActivity() {
 
             if(text !== ""){
                 progressBar.visibility = View.VISIBLE
-                val message = io.flaterlab.reader.models.Message(text, Date().time)
+                val message = Message(text, Date().time)
                 db.collection("messages").add(message).addOnSuccessListener {
                     progressBar.visibility = View.GONE
                     val partyDialog = PartyDialog(this,

@@ -1,14 +1,12 @@
 package com.example.kg_books.activities
 
-import android.os.Build
 import android.os.Bundle
 
 import com.google.android.material.tabs.TabLayout
 import androidx.viewpager.widget.ViewPager
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kg_books.R
-import io.flaterlab.reader.R
-import io.flaterlab.reader.activities.ui.add.SectionsPagerAdapter
+import com.example.kg_books.activities.ui.add.SectionsPagerAdapter
 import kotlinx.android.synthetic.main.activity_choose_school.*
 
 class ChooseSchoolActivity : AppCompatActivity() {
