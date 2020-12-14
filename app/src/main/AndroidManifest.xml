@@ -18,31 +18,31 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activities.ui.main.HelpActivity"
+            android:name="com.example.kg_books.activities.ui.main.HelpActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".activities.ReportMissedBook"
+            android:name="com.example.kg_books.activities.ReportMissedBook"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.ViewBookActivity"
+            android:name="com.example.kg_books.activities.ViewBookActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.ProfileActivity"
+            android:name="com.example.kg_books.activities.ProfileActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.ui.main.AboutActivity"
+            android:name="com.example.kg_books.activities.ui.main.AboutActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.BooksActivity"
+            android:name="com.example.kg_books.activities.BooksActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.ChooseSchoolActivity"
+            android:name="com.example.kg_books.activities.ChooseSchoolActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.ui.pdf.PdfActivity"
+            android:name="com.example.kg_books.activities.ui.pdf.PdfActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".activities.ui.main.MainActivity"
+            android:name="com.example.kg_books.activities.ui.main.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -52,9 +52,9 @@
             </intent-filter>
         </activity>
 
-<!--        <meta-data-->
-<!--            android:name="com.google.android.gms.ads.APPLICATION_ID"-->
-<!--            android:value="ca-app-pub-5495849371404595~3389516916" />-->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5495849371404595~3389516916" />
     </application>
 
 </manifest>
