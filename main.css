@@ -1,0 +1,25 @@
+.card-click-school,
+.card-click-class,
+.book-click{
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card-click-school:hover,
+.card-click-class:hover,
+.book-click:hover{
+    box-shadow: 2px 2px 5px #a0a0a0;
+}
+.book-click{
+    text-align: left;
+}
+.card .active{
+    background: #005cbf;
+    color: white;
+}
+
+#clear_name{
+    cursor: pointer;
+    color: #005cbf;
+}

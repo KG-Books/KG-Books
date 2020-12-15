@@ -1,0 +1,202 @@
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="boot.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="toastr.min.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col col-md-8">
+            <br>
+            <h4>Учебнки Кыргызстана <small id="count_books" class="btn">Посчитать книги</small> <small id="counter"></small></h4>
+
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body card-click-school" data-id="rkS489ydesPagS2lr3GX">
+                            Кыргызская школа
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body card-click-school" data-id="c3lE9hmMIhzHHQialuzf">
+                            Русская школа
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body  card-click-school" data-id="iBgDyUAymOALMqUkzjud">
+                            Узбекская школа
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body card-click-class" >
+                            1
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body card-click-class">
+                            2
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="card">
+                        <div class="card-body  card-click-class">
+                            3
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="card">
+                        <div class="card-body card-click-class">
+                            4
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="card">
+                        <div class="card-body card-click-class">
+                            5
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="card">
+                        <div class="card-body card-click-class">
+                            6
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="card">
+                        <div class="card-body card-click-class">
+                            7
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="card">
+                        <div class="card-body card-click-class">
+                            8
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="card">
+                        <div class="card-body card-click-class">
+                            9
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="card">
+                        <div class="card-body card-click-class">
+                            10
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="card">
+                        <div class="card-body card-click-class">
+                            11
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div id="books" class="container">
+
+            </div>
+            <br><br><br>
+        </div>
+        <div class="col-md-4">
+            <br>
+            <div class="card" style="position: fixed; width: 30%">
+                <div class="card-body">
+                    <label for="book_name">Название книги</label>
+                    <div class="input-group mb-3">
+                        <textarea class="form-control" type="text" id="book_name" rows="5" placeholder="name"></textarea>
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="clear_name">очистить</span>
+                        </div>
+                    </div>
+                    <br>
+                    <label for="book_location">Адрес для скачивания</label>
+                    <textarea class="form-control" type="text" id="book_location" rows="5" placeholder="link"></textarea>
+                    <br>
+                    <label for="book_size">Размер книги</label>
+                    <div class="input-group mb-3">
+                        <input class="form-control" type="text" id="book_size" placeholder="size"/>
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="clear_size">очистить</span>
+                        </div>
+                    </div>
+                    <br>
+                    <label for="book_extension">Формат книги</label>
+                    <div class="input-group mb-3">
+                        <input class="form-control" type="text" id="book_extension" placeholder="extension"/>
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="put_pdf">pdf</span>
+                        </div>
+                    </div>
+
+                    <br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox"  id="book_visibility">
+                        <label  class="form-check-label" for="book_visibility">Опубликован</label>
+                    </div>
+                    <br>
+                    <button class=" btn btn-primary" id="book_save">Сохранить</button>
+                    <button class=" btn btn-danger" id="clear_form">Очистить</button>
+                    <button class=" btn btn-danger" id="delete_form">Удалить</button>
+                </div>
+            </div>
+            <br>
+
+        </div>
+    </div>
+</div>
+<script src="firebase.js"></script>
+<script src="firestore.js"></script>
+<script src="jquery.js"></script>
+<script src="toastr.min.js"></script>
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyAZzwFXHMHXrbW877ZZqLD7zqvpspTgRAU",
+    	authDomain: "kg-books-db288.firebaseapp.com",
+    	projectId: "kg-books-db288",
+    	storageBucket: "kg-books-db288.appspot.com",
+    	messagingSenderId: "908608526178",
+    	appId: "1:908608526178:web:0f0a481fb19345a025fe3b",
+    	measurementId: "G-6Z06DZXQMP"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+<script  src="main.js"></script>
+</body>
+</html>
