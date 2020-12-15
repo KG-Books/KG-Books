@@ -1,1 +1,2 @@
-"# admiPanelUchebnikKg" 
+Admin Panel for KG-Books
+
