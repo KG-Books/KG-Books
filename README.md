@@ -1,10 +1,5 @@
 "# KG-Books" 
-
-Team members:\
-    Zheksheev Doslan\
-    Askhat Shailoobekov\
-    Maksatek Kanybek uulu\
-    Abdukarim Avazi\
+    
 
 Link to [documantations](https://docs.google.com/presentation/d/1AvF33mZm9hp6ClB4xbTbiq4anWIBmjWR-UGntv0bZtg/edit?usp=sharing)
 
